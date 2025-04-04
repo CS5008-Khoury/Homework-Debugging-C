@@ -1,4 +1,4 @@
-# Homework 1: Instructions
+# Homework Debugging C and Linux Practice: Instructions
 
 For this homework, you are going to work on getting your development environment setup with C and git. This will vary slightly for every student, but the goal is to get you comfortable with the tools you will be using for the rest of the semester.
 
