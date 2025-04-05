@@ -96,7 +96,7 @@ Here is the example from VS Code:
 ## Instructions: Debugging Your First C Application
 You are provided with a C file that doesn't currently run. You will use warnings, the comments, and logic to build a working program.  
 
-👉🏽 **Task** 👈🏽: Fix [main.c](../main.c)
+👉🏽 **Task** 👈🏽: Fix [main.c](../src/main.c)
 
 1. Open the file `main.c` in your IDE or text editor.
 2. Read through the documented code. *You **DO NOT** have to know C to complete this assignment*. Instead, you should use what you know about programming languages in general to get an idea of what the code is doing. We will cover C in the next module. 
