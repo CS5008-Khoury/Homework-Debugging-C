@@ -163,10 +163,11 @@ On Gradescope, select that you want to submit your code via Github, and connect 
 2. Approaching  (AG)
    * Harder logic errors are fixed (free, logic)
 3. Meets  (MG)
-   * Report questions are answered correctly.
+   * Report questions 1-9 are answered correctly.
 4. Exceeds  (MG)
    * At least 3 commits
-   * Latex Math question completed properly
+   * Linear search and binary search question answered correctly
+   * References formatted correctly
    * Thinking Deeper question answered
 
 
