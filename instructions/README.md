@@ -2,6 +2,34 @@
 
 For this homework, you are going to work on getting your development environment setup with C and git. This will vary slightly for every student, but the goal is to get you comfortable with the tools you will be using for the rest of the semester.
 
+- [Homework Debugging C and Linux Practice: Instructions](#homework-debugging-c-and-linux-practice-instructions)
+  - [Learning Objectives](#learning-objectives)
+  - [Prerequisites](#prerequisites)
+    - [GIT Commit](#git-commit)
+    - [C Installed](#c-installed)
+    - [Setup - Cloning Your Repository](#setup---cloning-your-repository)
+    - [:star: Using an IDE :star:](#star-using-an-ide-star)
+  - [Instructions: Debugging Your First C Application](#instructions-debugging-your-first-c-application)
+    - [Wait but I don't know C...](#wait-but-i-dont-know-c)
+    - [:star: REMINDER :star:](#star-reminder-star)
+    - [Report.md](#reportmd)
+  - [📝 Grading Rubric](#-grading-rubric)
+    - [Submission Reminder 🚨](#submission-reminder-)
+  - [📚 Resources](#-resources)
+    - [Git](#git)
+
+
+## Learning Objectives
+
+The learning objects for this assignment are
+
+* Setting up C and git on your local system or experience using them on the khoury servers
+* Practice with linux 
+* Practice compiling and debugging C code
+* Working with markdown 
+* Working with the assignment submission process
+
+## Prerequisites 
 For this assignment, you will
 need to make sure the following is in place
 
@@ -14,7 +42,7 @@ let you use this repository as a template for your work.
 
 You will also need *git* installed ideally on your local system. If you are using a Windows system, you will need to install [Git Bash](https://git-scm.com/downloads). If you are using a Mac or Linux system, you should already have git installed.
 
-## GIT Commit
+### GIT Commit
 Throughout this assignment you will be committing your changes to your repository. When you commit to Git.
 * Commit frequently after every major change
 * Use active/action verbs in your message, that are short yet descriptive
@@ -28,8 +56,10 @@ See resources for into on Git Commit
 > [!CAUTION]
 > All assignments will need to have _at least_ three commits to earn full points. Most assignments will have many more than that (this is the only one who reaching three may be limited).
 
+### C Installed
+You will need to have C installed or work remotely on the course servers. Visit [Installing C Options](https://github.com/CS5008-Khoury/Resources/blob/main/InstallC.md) to learn more. 
 
-## Setup - Cloning Your Repository 
+### Setup - Cloning Your Repository 
 
 On the various operating systems, there are terminal applications. These are used to interact with the operating system. For example, you can use the terminal to navigate your file system, and run programs. 
 
@@ -43,22 +73,28 @@ If you have it setup right, all of the operating systems should allow the `ls` c
      ![Clone Example]
      * IMPORTANT❗  Double check that it is your personal repo, and not the general assignment repo. 
    * Then, in your terminal, navigate to your `cs5008` directory using `cd`, and type `git clone <link>`. (see linux commands in resources)
-   * For example, if your link is `https://github.com/CS5008-khoury-lionelle/lionelle-hw1.git`
-   * The command would be `git clone https://github.com/CS5008-khoury-lionelle/lionelle-hw1.git`
+   * For example, if your link is `https://github.com/SP23-CS5008-lionelle/lionelle-hw1.git`
+   * The command would be `git clone https://github.com/SP23-CS5008-lionelle/lionelle-hw1.git`
 
 
 
-> You can also do this on the Khoury servers, but in order to get git working, you will need to setup a Personal Access Token (PAT) for your Github account. Here is a [example](https://github.com/CS5008-khoury-lionelle/Resources/blob/main/pat_guide.md).
+> You can also do this on the Khoury servers, but in order to get git working, you will need to setup a Personal Access Token (PAT) for your Github account. Here is a [quick guide](https://github.com/CS5008-Khoury/Resources/blob/main/pat_guide.md).
 
-:star: HINT :star:  
-The first time using Git, you will have to setup your email and name. You can do this by typing `git config --global user.email "your_email"` and `git config --global user.name "your_name"`.
+> [!IMPORTANT]
+> The first time using Git, you will have to setup your email and name. You can do this by typing  
+> `git config --global user.email "your_email"` and   
+> `git config --global user.name "your_name"`.
 
-### :star: Using and IDE :star: 
-If you are using an IDE, such as VS Code or CLion, git is built into the applications, and we recommend going to 'new project from version control' and using the link to your repository. The name may change based on your IDE, but the functionality is the same. Feel free to ask in the general chat in MS Teams and students can help each other out pointing to the correct spot based on their IDE + OS. 
+### :star: Using an IDE :star: 
+If you are using an IDE, such as VS Code or CLion, git is built into the applications, and we recommend getting project from git or VCS (version control system) and using the link to your repository. The name may change based on your IDE, but the functionality is the same. Feel free to ask in the general chat in MS Teams and students can help each other out pointing to the correct spot based on their IDE + OS. 
+
+Here is the example from VS Code:
+
+![VS Code Git]
 
 
-## Debugging Your First C Application
-You will want to get C running on your system for the next part of this assignment. Here is a quick [reference](https://github.com/CS5008-khoury-lionelle/Resources/blob/main/InstallC.md) for various options. You can also do all this work on the Khoury servers via the terminal. 
+## Instructions: Debugging Your First C Application
+You are provided with a C file that doesn't currently run. You will use warnings, the comments, and logic to build a working program.  
 
 👉🏽 **Task** 👈🏽: Fix [main.c](../main.c)
 
@@ -68,7 +104,8 @@ You will want to get C running on your system for the next part of this assignme
    * For most people the command will be `gcc -Wall main.c -o main.out`
    * If you do that, you can then run the program by typing `./main.out` in the terminal. 
 
-> Your environment may modify the compile command a bit (for example Clion using cmakefiles.txt). If you are having trouble, ask in the general chat in MS Teams and students can help each other out. You will want to make sure you are using clang or gcc, and not the MSVC compiler (which is the default for Windows).
+   > [!WARNING] 
+   > Your environment may modify the compile command a bit (for example Clion using cmakefiles.txt). If you are having trouble, ask in the general chat in MS Teams and students can help each other out. You will want to make sure you are using clang or gcc, and not the MSVC compiler (which is the default for Windows).
 
 4. You will notice there are warnings when you compile using the clang compiler! This would cause the code to fail in the autograder as your code has to compile without warnings.
    1. **FIX**: Fix the warnings in the code. 
@@ -103,10 +140,15 @@ The errors in the code are similar to ones you can find in python or java. They 
 Make sure to commit between each change! For example, you fix spaces, you do a git commit -m'fixed spaces in strings'. Then you fix the return statement, you do a `git commit -m'fixed return statement in (func name)'`. Then you fix the logic, you do a `git commit -m'fixed logic in (location)'`.
 
 
-## Report.md 
-You will notice there are questions in your [readme.md](../README.md) file. You will want to answer these questions. For this course, we will be doing a lot with README.md files, so it is important to get used to them. You may even want to review the [Markdown Guide](https://guides.github.com/features/mastering-markdown/) to get a better understanding of how to format your readme.md file.
+### Report.md 
+You will notice there are questions in your [readme.md](../README.md) and [Report.md](../Report.md) file. You will want to answer these questions. For this course, we will be doing a lot with Markdown files, so it is important to get used to them. You may even want to review the [Markdown Guide](https://guides.github.com/features/mastering-markdown/) to get a better understanding of how to format your readme.md file.
 
-Every assignment will have questions in your README.md, so make sure you review them!
+Every assignment will have to fill out both a README.md and Report.md, so make sure you review them!
+
+> [!IMPORTANT]
+> A common mistake in markdown files is not viewing how they render on the website. Always go to github and review
+> how the markdown files really look. Graders go to github to review the code even though you submit on gradescope,
+> as it will properly render latex math (which is required for a lot of reports). 
 
 
 ## 📝 Grading Rubric
@@ -117,14 +159,15 @@ On Gradescope, select that you want to submit your code via Github, and connect 
 
 1. Learning (AG)
    * Code compiles without warnings
-2. Approaching  (AG)
    * Simple errors fixed in the code (spacing, string issues, etc.)
-3. Meets  (AG)
+2. Approaching  (AG)
    * Harder logic errors are fixed (free, logic)
+3. Meets  (MG)
+   * Report questions are answered correctly.
 4. Exceeds  (MG)
-   * Screenshot of Git cloned repository
    * At least 3 commits
-   * README.md questions answered correctly
+   * Latex Math question completed properly
+   * Thinking Deeper question answered
 
 
 AG - Auto-graded  
@@ -151,5 +194,5 @@ For manually graded elements, we only guarantee time to submit for a regrade **I
 
 
 <!-- Link definitions-->
-[SSH Login Example]: ssh_login_example.png
+[VS Code Git]: vscode_git.png
 [Clone Example]: clone_example.png
