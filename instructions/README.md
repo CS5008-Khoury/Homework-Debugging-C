@@ -178,7 +178,10 @@ MG - Manually graded
 For manually graded elements, we only guarantee time to submit for a regrade **IF** you submit by the **DUE DATE**. Submitting late may mean it isn't possible for the MG to be graded before the **AVAILABLE BY DATE**, removing any windows for your to resubmit in time. While it will be graded, it is always best to *submit by the due date*, so you have full opportunity to improve your grade.
 
 
+If you need a reminder about the grading policy, please review the syllabus and the canvas page on 'formative/summative' grading. This class uses a unique grading system that will allow you to be flexible with due dates and multiple resubmissions (if you submit with time for TAs to give feedback), but we also ask that you continue to work on the assignment until you get a full grade.
 
+> [!CAUTION]
+> For this class, we give about a month for the available until date. This means you will only have a few manual resubmission attempts, and most everyone uses at least one! As such it is essential you submit on time!
 
 
 ## 📚 Resources
