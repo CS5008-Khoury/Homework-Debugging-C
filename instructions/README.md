@@ -145,7 +145,7 @@ You will notice there are questions in your [readme.md](../README.md) and [Repor
 
 Every assignment will have to fill out both a README.md and Report.md, so make sure you review them!
 
-> [!IMPORTANT]
+> [!CAUTION]
 > A common mistake in markdown files is not viewing how they render on the website. Always go to github and review
 > how the markdown files really look. Graders go to github to review the code even though you submit on gradescope,
 > as it will properly render latex math (which is required for a lot of reports). 
