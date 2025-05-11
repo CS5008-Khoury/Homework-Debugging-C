@@ -33,7 +33,7 @@
 
      
 
-6. Permissions for files are often set by binary values. For example 111 is read, write, execute. When all of them are converted and put together, that is an octal. For example: `700` is `-rwx------` or `644` is `rw-r--r--` (common for web pages).  
+6. Permissions for files are often set by binary values. For example 111 is read, write, execute. When all of them are converted and put together, that is an octal. For example: `700` is `rwx------` or `644` is `rw-r--r--` (common for web pages).  
    Convert the following numeric representation to permissions. 
 
    | Octal |  Binary     | Permission |
