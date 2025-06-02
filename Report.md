@@ -46,7 +46,7 @@
 
 7. Pick three linux commands. List them below using bullets (inset under this number). In your own words describe what each command does.
 
-   * <u>example:</u> `ls` - lists directory contents
+   * *example:* `ls` - lists directory contents
    *
    *
    *
@@ -62,14 +62,6 @@
 9. In line two of the three C code lines above, what is being passed into scanf? Is it the value or is it the address of a memory location?
 
 10. Thinking back to CS 5001 - you should have briefly covered a linear and binary search algorithms, if you didn't cover them, that is fine!
-
-      > [!IMPORTANT]
-      > Whether you covered them or not, I would like you to look up at least two (2) references for them online, and include them in your answer using in-text citations.
-
-      > <u> Example of in-text citations:</u>
-      >
-      > Strings in C are sequences of characters stored in an array structure, ended by the null terminator [1]. In order to use them, most systems provide access to <string.h> to provide functions such as `strlen()` and `strcpy()` [2].
-
       10a. In your own words describe a linear search algorithm.
 
       Don't forget to match your indent on your answer (delete this line..)
@@ -77,6 +69,13 @@
       10b. In your own words describe a binary search algorithm.
 
       10c. Which one is faster? And is it situational?
+    
+> [!IMPORTANT]
+  > Whether you covered them or not, I would like you to look up at least two (2) references for them online, and include them in your answer for question 10 using in-text citations.
+  
+> **Example of in-text citations:**
+  > 
+  > Strings in C are sequences of characters stored in an array structure, ended by the null terminator [1]. In order to use them, most systems provide access to <string.h> to provide functions such as `strlen()` and `strcpy()` [2].
 
 ## Deeper Thinking
 
@@ -88,7 +87,7 @@ Reflect a bit on why that would be the case for computer science? Include in you
 
 Place your references here using [ACM format](https://www.acm.org/publications/authors/reference-formatting).
 
->[!NOTE]
+>[!TIP]
    > if you are unsure how to format something in ACM, this is a good case of using [claude](https://claude.northeastern.edu/) or other LLM - you can paste it in and ask it to format the link into ACM format. If you can't find all the info, we won't hold you to strict formatting, just a proper attempt.
 
 1. GeeksforGeeks. 2025. Strings in C. (January 10, 2025). Retrieved April 5, 2025 from <https://www.geeksforgeeks.org/strings-in-c/>
