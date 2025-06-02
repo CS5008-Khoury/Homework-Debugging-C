@@ -62,6 +62,7 @@
 9. In line two of the three C code lines above, what is being passed into scanf? Is it the value or is it the address of a memory location?
 
 10. Thinking back to CS 5001 - you should have briefly covered a linear and binary search algorithms, if you didn't cover them, that is fine!
+    
       10a. In your own words describe a linear search algorithm.
 
       Don't forget to match your indent on your answer (delete this line..)
