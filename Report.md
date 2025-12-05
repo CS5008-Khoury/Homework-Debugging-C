@@ -78,11 +78,6 @@
   > 
   > Strings in C are sequences of characters stored in an array structure, ended by the null terminator [1]. In order to use them, most systems provide access to <string.h> to provide functions such as `strlen()` and `strcpy()` [2].
 
-## Deeper Thinking
-
-Computer science ends up becoming more "exploration" based as you progress. This assignment required a lot of exploration and learning the correct thing to setup / install - which is all unique based on your systems. This is common in the industry, even if it can be frustrating for a student just learning.
-
-Reflect a bit on why that would be the case for computer science? Include in your reflection some "habits" you can develop to help better that process of exploration and learning. Please include at least a paragraph for this reflection. You should not just give your answer with bullet points. Doing so will have it returned. Prose writing is important. While you can include proper use of bullet points in prose, you still need to format your writing as a paragraph!
 
 ## References
 
@@ -91,10 +86,10 @@ Place your references here using [ACM format](https://www.acm.org/publications/a
 >[!TIP]
    > if you are unsure how to format something in ACM, this is a good case of using [claude](https://claude.northeastern.edu/) or other LLM - you can paste it in and ask it to format the link into ACM format. If you can't find all the info, we won't hold you to strict formatting, just a proper attempt.
 
-1. GeeksforGeeks. 2025. Strings in C. (January 10, 2025). Retrieved April 5, 2025 from <https://www.geeksforgeeks.org/strings-in-c/>
+[1] GeeksforGeeks. 2025. Strings in C. (January 10, 2025). Retrieved April 5, 2025 from <https://www.geeksforgeeks.org/strings-in-c/>
 
-2. GeeksforGeeks. 2025. C String Functions. (January 17, 2025). Retrieved April 5, 2025 from <https://www.geeksforgeeks.org/string-functions-in-c/>
+[2] GeeksforGeeks. 2025. C String Functions. (January 17, 2025). Retrieved April 5, 2025 from <https://www.geeksforgeeks.org/string-functions-in-c/>
 
-3. Insert citation here
+[3] Insert citation here
 
-4. Insert citation here
+[4] Insert citation here

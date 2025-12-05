@@ -168,7 +168,6 @@ On Gradescope, select that you want to submit your code via Github, and connect 
    * At least 3 commits
    * Linear search and binary search question answered correctly
    * References formatted correctly
-   * Thinking Deeper question answered
 
 
 AG - Auto-graded  
