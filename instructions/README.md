@@ -13,6 +13,7 @@ For this homework, you are going to work on getting your development environment
     - [Wait but I don't know C...](#wait-but-i-dont-know-c)
     - [:star: REMINDER :star:](#star-reminder-star)
     - [Report.md](#reportmd)
+  - [🤖 Use of LLMs](#-use-of-llms)
   - [📝 Grading Rubric](#-grading-rubric)
     - [Submission Reminder 🚨](#submission-reminder-)
   - [📚 Resources](#-resources)
