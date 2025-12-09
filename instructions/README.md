@@ -150,6 +150,51 @@ Every assignment will have to fill out both a README.md and Report.md, so make s
 > how the markdown files really look. Graders go to github to review the code even though you submit on gradescope,
 > as it will properly render latex math (which is required for a lot of reports). 
 
+## 🤖 Use of LLMs
+For this assignment, you should avoid LLMs for both the code and especially the report. The important part of this assignment is reasoning through the both the coding errors, and in the report reasoning through the answers. LLMs can hurt that reasoning process, and also lead you down the wrong path. At this point, it is best for you to reason through this assignment. We will have LLM use in the future but not this one. 
+
+
+For studying, here are some prompts that can help
+
+> I want to learn about Linux file permissions from scratch. Please teach me interactively:
+> 
+> 1. Start with the fundamentals - explain what file permissions are and why they > matter
+> 2. Break down the permission system (read, write, execute for user/group/others)
+> 3. Explain both symbolic (rwx) and numeric (755, 644) notation
+> 4. Show me practical examples with real-world scenarios
+> 
+> After each concept, quiz me with questions to test my understanding. Give me immediate feedback on my answers - if I'm wrong, explain why and help me understand the correct answer. If I'm right, confirm it and build on that knowledge.
+>
+> Adjust the difficulty based on how I'm doing. If I'm struggling, slow down and provide more examples. If I'm getting it quickly, move faster and introduce more advanced concepts.
+>
+> Make it conversational and encouraging - I learn best through back-and-forth dialogue rather than lectures. Ask me one question at a time and wait for my response before continuing.
+>
+> Let's start with the very basics!
+
+or with C
+
+> I'm a Python programmer learning C for the first time. I haven't learned pointers yet, so please don't cover those yet.
+>
+> Focus on teaching me these fundamental differences between Python and C:
+>
+> 1. Type systems - why I need to declare types (int, float, char, etc.) vs > Python's dynamic typing
+> 2. Variable declaration - declaring variables before using them
+> 3. The compilation process - how C is compiled vs Python being interpreted
+> 4. Basic I/O - using printf() and scanf() vs Python's print() and input()
+> 5. Format specifiers (%d, %f, %s, etc.) and why they're needed
+> 6. Semicolons, curly braces, and C syntax basics
+> 
+> Teach me interactively by:
+> - Showing me Python code, then the equivalent C code side-by-side
+> - Explaining why C requires what it does
+> - Asking me to predict what C code I'd need for a given task
+> - Quizzing me after each concept to check my understanding
+> - Giving immediate feedback - if I'm wrong, explain why and show the correct  answer
+> - If I'm right, confirm it and build on that knowledge
+> 
+> Make it conversational and adjust difficulty based on my responses. Ask me one question at a time and wait for my answer before continuing.
+>
+> Start with the absolute basics - assume I've only ever written Python. Let's begin!
 
 ## 📝 Grading Rubric
 
